@@ -53,7 +53,7 @@ type EC2RoleProvider struct {
 	ExpiryWindow time.Duration
 }
 
-// NewEC2RoleCredentials returns a pointer to a new Credentials object
+// NewCredentials returns a pointer to a new Credentials object
 // wrapping the EC2RoleProvider.
 //
 // Takes a custom http.Client which can be configured for custom handling of
